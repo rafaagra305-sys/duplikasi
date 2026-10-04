@@ -6,6 +6,100 @@
     <title>Tugas Lanjutan</title>
 
     <style>
+
+      @media (max-width: 992px) {
+        header {
+          padding: 0 20px;
+        }
+
+        header nav a {
+          padding: 0 10px;
+          font-size: 11px;
+        }
+
+        .hero {
+          flex-direction: column; 
+          justify-content: center;
+          text-align: center;
+          padding: 40px 30px;
+          gap: 40px;
+        }
+
+        .kiri {
+          max-width: 100%;
+        }
+
+        .foto {
+          justify-content: center;
+        }
+
+        footer {
+          padding: 40px 30px 20px 30px;
+        }
+
+        .grup-link {
+          gap: 30px; 
+        }
+      }
+
+      @media (max-width: 768px) {
+        /* Header / Navbar HP */
+        header {
+          height: auto;
+          padding: 15px 20px;
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        header nav {
+          flex-wrap: wrap;
+          justify-content: center;
+          height: auto;
+        }
+
+        header nav a {
+          height: 40px;
+          padding: 0 12px;
+        }
+
+        .rasa {
+          font-size: 32px;
+        }
+
+        .foto {
+          flex-direction: column;
+          align-items: center;
+          gap: 25px;
+        }
+
+        .produk-img {
+          height: 250px !important; 
+        }
+
+        .kolom {
+          flex-direction: column;
+          gap: 30px;
+        }
+
+        .grup-link {
+          flex-direction: column;
+          gap: 25px;
+        }
+
+        .terms {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .sosial-media {
+          justify-content: center;
+        }
+
+        .copyright {
+          text-align: center;
+        }
+      }
+
       * {
         box-sizing: border-box;
         margin: 0;
@@ -16,8 +110,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 40px; /* Padding atas/bawah 0 agar tinggi tautan memenuhi header */
-        height: 80px; /* Tinggi header fixed */
+        padding: 0 40px; 
+        height: 80px; 
         background-color: #ffffff;
         border-top: 6px solid #006241;
         border-bottom: 1px solid #e0e0e0;
@@ -47,15 +141,15 @@
       header nav a {
         display: flex;
         align-items: center;
-        height: 100%; /* Memenuhi seluruh tinggi header */
-        padding: 0 18px; /* Jarak kiri-kanan antar teks */
+        height: 100%; 
+        padding: 0 18px; 
         text-decoration: none;
         color: #212121;
         font-family: Arial, sans-serif;
         font-size: 13px;
         font-weight: bold;
-        text-transform: uppercase; /* Huruf kapital semua */
-        letter-spacing: 1.5px; /* Jarak antar huruf */
+        text-transform: uppercase;
+        letter-spacing: 1.5px; 
         transition: background-color 0.2s, color 0.2s;
       }
 
@@ -296,12 +390,12 @@
         
         <div class="foto">
           <div class="produk">
-            <img src="kopi.png"alt="Pumpkin Cream Cold Brew" class="produk-img" style="height: 420px;">
+            <img src="kopi.png"alt="Pumpkin Cream Cold Brew" class="produk-img" style="height: 220px;">
             <div class="nama">Pumpkin Cream Cold Brew</div>
           </div>
           
           <div class="produk">
-            <img src="kopi1.png" alt="Iced Pumpkin Spice Latte" class="produk-img" style="height: 420px;">
+            <img src="kopi1.png" alt="Iced Pumpkin Spice Latte" class="produk-img" style="height: 220px;">
             <div class="nama">Pumpkin Spice Latte</div>
           </div>
         </div>
